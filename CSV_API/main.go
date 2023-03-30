@@ -16,7 +16,7 @@ type Data struct {
 	ID    int    `csv:"id"`
 	name  string `csv:"name"`
 	age  string  `csv:"age"`
-	loc  string `csv:"location"
+	loc  string `csv:"location"`
 }
 
 func main() {
